@@ -7,6 +7,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip.chomp
 input_to_index(input)
-p = input_to_index(input)
+z = input_to_index(input)
 move(board, p, value = "X")
 display_board(board)
